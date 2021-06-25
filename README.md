@@ -35,9 +35,9 @@ PHP ,Mysql
 
 
 
-![](./images/res.PNG)
-![](./images/res.PNG)
-![](./images/res.PNG)
-![](./images/res.PNG)
+![](./images/r.PNG)
+![](./images/s.PNG)
+![](./images/b.PNG)
+
 
 
