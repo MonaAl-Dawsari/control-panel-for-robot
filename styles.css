@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("https://images.unsplash.com/photo-1542228846-2d791a09d7d1?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80");
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 500px;
+    animation: animate 10s infinite linear;
+    background-position: cover;
+  }
+p {
+    color: aliceblue;
+}
+h1{
+    color:aliceblue;
+}
+  /* To add animation for the background*/
+  @keyframes animate {
+
+    0% {
+        background-position: 0px 100px;
+    }
+
+    100% {
+        background-position: 0px 0px;
+    }
+}
+h4,p{
+    color: blue;
+}
+  main{
+
+    color: rgb(214, 18, 18);
+    font-size: 33px;  
+    width: 100%;
+    max-width: 1920px;
+    min-width: 480px;
+    height: 200px;
+    margin-left: -8px;
+    text-align: center;
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 100px 0 0;
+
+}
+
+.other_btn{
+    padding: 7px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position:inherit;
+    border-radius: 8px;
+    color: crimson;
+
+
+}
+
+
+.stopbtn{
+    background-color: red;
+    padding: 7px 50px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 12px;
+    cursor: pointer;
+    position:inherit;
+    border-radius: 8px;
+    color: rgb(233, 233, 235);
+
+    
+}
+
+/* New container to match the dimensions of the phone or any other screen */
+.container{
+    width: 100%;
+    max-width: 1920px;
+    min-width: 480px;
+    height: 200px;
+    margin-left: -8px;
+    overflow: hidden;
+    text-align: center;
+}
