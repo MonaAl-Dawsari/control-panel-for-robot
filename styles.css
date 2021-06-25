@@ -78,7 +78,6 @@ h4,p{
     
 }
 
-/* New container to match the dimensions of the phone or any other screen */
 .container{
     width: 100%;
     max-width: 1920px;
